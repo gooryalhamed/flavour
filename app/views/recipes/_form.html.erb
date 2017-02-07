@@ -17,6 +17,22 @@
 		<%= f.label :description %>
 		<%= f.text_area :description %><br><br>
 	</div>
+	<div>
+		<%= f.label :category %>
+		<%= f.text_field :category %><br>
+	</div>
+		
+	<div>
+		<%= f.label :ingredients %>
+	<%= f.text_field :ingredients %><br>
+		</div>
+		
+	<div>
+		<%= f.label :preparation %>
+		<%= f.text_field :preparation %><br>
+	</div>
+
+
 	<div class="actions"><%= f.submit %></div>
 	
 <% end %>
