@@ -1,0 +1,14 @@
+<div id="greeting">
+	<div id="inner">
+		<p id="welcome">Welcome To Flavour</p>
+		<p id="share">share your creativity</p>
+		<%= image_tag 'cooking_1x.png' %>
+		<%= form_tag recipes_path do %>
+			<label>Username: </label>
+			<%= text_field_tag :username %><br>
+			<label>Password: </label>
+			<%= text_field_tag :password %><br>
+			<%= submit_tag "create" %>
+		<% end %>
+	</div>
+</div>

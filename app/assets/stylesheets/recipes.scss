@@ -1,3 +1,27 @@
 // Place all the styles related to the Recipes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Original+Surfer');
+#welcome{
+	font-family: 'Original Surfer', cursive;
+	font-size: 60px;
+	
+}
+#share{
+	font-size: 40px;
+}
+#greeting{
+	margin: auto;
+	width: 50%;
+	height: 60%;
+	
+}
+#inner{
+	text-align: center;
+}
+#greeting img{
+	position: relative;
+	margin-left: 400px;
+	width: 50%;
+	height: 50%;
+}
