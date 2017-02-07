@@ -4,24 +4,70 @@
 @import url('https://fonts.googleapis.com/css?family=Original+Surfer');
 #welcome{
 	font-family: 'Original Surfer', cursive;
-	font-size: 60px;
-	
+	font-size: 90px;
 }
+body{
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+}
+
 #share{
 	font-size: 40px;
+	position: absolute;
+	top: 150px;
 }
+
 #greeting{
 	margin: auto;
 	width: 50%;
 	height: 60%;
 	
 }
-#inner{
-	text-align: center;
+
+.form{
+	border: 2px solid #FAFAD2;
+	border-radius: 6px;
+	width: 27%;
+	padding: 15px;
+	position: absolute;
+	left: 400px;
+	bottom: 160px;
+	
 }
-#greeting img{
-	position: relative;
-	margin-left: 400px;
-	width: 50%;
-	height: 50%;
+
+.form .inner .input{
+	margin-bottom: 10px;
+	 font-size: 17px;
+}
+
+input[type=text] {
+	padding: 5px 5px;
+    border:2px solid #FAFAD2; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 250px;
+    
+}
+
+input[type=submit] { 
+	padding: 7px 30px;
+    color: white;
+    font-weight: bold;
+    background-color: black; 
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border:2px solid #FAFAD2; 
+}
+.form .inner .input{
+	margin-bottom: 10px;
+}
+span{
+	margin-left: 140px;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
 }
