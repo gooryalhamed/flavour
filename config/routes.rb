@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :ingredients
+  resources :categories
   resources :recipes
-	root 'recipes#greeting'  
+	get "/", to: "application#home"
 end
