@@ -2,72 +2,41 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import url('https://fonts.googleapis.com/css?family=Original+Surfer');
-#welcome{
-	font-family: 'Original Surfer', cursive;
-	font-size: 90px;
+
+#container{
+	width: 350px;
+	height: 500px;
+	margin: auto;
+	margin-top: 40px;
+	font-size: 18px;
+	font-family: sans-serif;
+	border: 1px solid white;
+	border-radius: 4px;
+	padding: 20px 40px;
+	background-color: #ffffe6;
 }
 body{
-	background-image: url('background.jpg');
-	background-repeat: no-repeat;
+	background-color: #ffffb3;
 }
+.field{
+	margin-bottom: 15px;
 
-#share{
-	font-size: 40px;
-	position: absolute;
-	top: 150px;
 }
-
-#greeting{
-	margin: auto;
-	width: 50%;
-	height: 60%;
-	
+input[type="submit"]{
+	background-color: #e6f2ff;
+	padding: 6px;
+	border-radius: 4px;
 }
-
-.form{
-	border: 2px solid #FAFAD2;
-	border-radius: 6px;
-	width: 27%;
-	padding: 15px;
-	position: absolute;
-	left: 400px;
-	bottom: 160px;
-	
+span#prep{
+	display:inline-block;
+    vertical-align:top;
+    position:relative; 
 }
-
-.form .inner .input{
-	margin-bottom: 10px;
-	 font-size: 17px;
+.field label{
+	vertical-align: middle;
 }
-
-input[type=text] {
-	padding: 5px 5px;
-    border:2px solid #FAFAD2; 
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    width: 250px;
-    
-}
-
-input[type=submit] { 
-	padding: 7px 30px;
-    color: white;
-    font-weight: bold;
-    background-color: black; 
-    cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    border:2px solid #FAFAD2; 
-}
-.form .inner .input{
-	margin-bottom: 10px;
-}
-span{
-	margin-left: 140px;
-}
-
-.field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table;
+#container #error_explan{
+	width: 350px;
+	font-size: 14px;
+	border: 2px red;
 }

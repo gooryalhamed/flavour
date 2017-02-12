@@ -1,8 +1,4 @@
-<div id="greeting">
-	
-		<p id="welcome">Flavour</p>
-		<p id="share">share your creative recipes</p>
-	<div class="form">
+<div class="form">
 		<%= form_tag recipes_path do %>
 		<div class="inner">
 			<div class="input">
@@ -14,7 +10,8 @@
 				<%= text_field_tag :password %><br>
 			</div>
 			<div class="input">
-				Admin<%= check_box_tag 'admin'%>
+				<label>Secret Number: </label>
+				<%= text_field_tag :secret_num %><br>
 				<span>
 					<a href="#" target="_blank">forget password? </a>
 				</span>
@@ -25,4 +22,3 @@
 			</div>
 		<% end %>
 	</div>
-</div>
