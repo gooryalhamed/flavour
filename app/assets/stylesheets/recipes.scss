@@ -3,40 +3,19 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import url('https://fonts.googleapis.com/css?family=Original+Surfer');
 
-#container{
+.container{
 	width: 350px;
 	height: 500px;
-	margin: auto;
-	margin-top: 40px;
-	font-size: 18px;
-	font-family: sans-serif;
-	border: 1px solid white;
-	border-radius: 4px;
-	padding: 20px 40px;
-	background-color: #ffffe6;
 }
-body{
-	background-color: #ffffb3;
-}
-.field{
-	margin-bottom: 15px;
 
-}
-input[type="submit"]{
-	background-color: #e6f2ff;
-	padding: 6px;
-	border-radius: 4px;
-}
 span#prep{
 	display:inline-block;
     vertical-align:top;
     position:relative; 
 }
-.field label{
-	vertical-align: middle;
-}
-#container #error_explan{
+
+.container .error_explan{
 	width: 350px;
-	font-size: 14px;
+	font-size: 12px;
 	border: 2px red;
 }

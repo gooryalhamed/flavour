@@ -1,6 +1,14 @@
-<%= @recipe.title %>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>show-recipe</title>
+</head>
+<body>
+	<%= @recipe.title %>
 <%= @recipe.description %>
 
 <%= link_to 'edit', edit_recipe_path(@recipe) %>
 <%= link_to 'delete', recipes_path %>
+</body>
+</html>
 

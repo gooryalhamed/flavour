@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log-In</title>
+	
+</head>
+<body>
+	<div class="container">
+		<%= form_tag recipes_path do %>
+		<div class="inner">
+			<div class="field">
+			<label>Username: </label>
+				<%= text_field_tag :username %><br>
+			</div>
+			<div class="field">
+				<label>Password: </label>
+				<%= text_field_tag :password %><br>
+			</div>
+			<div class="field">
+				<a href="#" target="_blank">forget password? </a>
+			</div>
+				<div class="actions">
+					<%= submit_tag "login" %>
+				</div>	
+			</div>
+		<% end %>
+	</div>
+	<%= yield %>
+</body>
+</html>

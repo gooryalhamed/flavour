@@ -1,13 +1,22 @@
-
-<div id="greeting">
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flavour-home page</title>
+</head>
+<body>
+	<div id="greeting">
 		<p id="flavour">Flavour</p>
 		<p id="share">share your creative recipes</p>
-		<a href="signup"><button class="btn">Sign up</button></a>
-		<a href="login"><button class="btn">Log in</button></a>
-		<button class="btn" id="about">About us</button>
-</div>
-<div id="contact">
-	<h2>Contact Us</h2>
-	<a><%= image_tag "email.png" %></a>
-	<a><%= image_tag "facebook.png" %></a>
-</div>
+		
+		<a href="flavour/signup"><button class="btn">Sign Up</button></a>
+		<a href="login"><button class="btn">Log In</button></a>
+		<button class="btn" id="about">About Us</button>
+	</div>
+	<div id="contact">
+		<span>x</span>
+		<h3>Contact Us</h3>
+		<a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=target@email.com"><%= image_tag "email.png" %></a>
+		<a href="https://www.facebook.com/goory.alhamed"><%= image_tag "facebook.png" %></a>
+	</div>
+</body>
+</html>

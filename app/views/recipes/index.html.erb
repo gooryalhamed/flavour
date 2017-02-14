@@ -1,4 +1,12 @@
-<% @recipes.each do %>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>all-recipes</title>
+</head>
+<body>
+	<% @recipes.each do %>
 	<h3><%= @recipe.title%></h3>
 	<p><%= @recipe.description %></p>
 <% end %>
+</body>
+</html>

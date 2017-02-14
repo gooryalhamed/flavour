@@ -4,6 +4,5 @@ Rails.application.routes.draw do
   resources :recipes
   
 	root 'application#home'
-	get "/login", to: 'application#login'
-	get "/signup", to: 'application#signup'
+	get "flavour/signup", to: 'sessions#signup'
 end

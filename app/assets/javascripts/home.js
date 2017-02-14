@@ -4,6 +4,13 @@ function showcontact(){
 	});
 }
 
+function closecontact(){
+	$('#contact span').on('click', function(){
+		$('#contact').hide()
+	});
+}
+
 $(document).ready(function(){
 	showcontact();
+	closecontact();
 });
