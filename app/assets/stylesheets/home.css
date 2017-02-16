@@ -1,11 +1,12 @@
 #greeting{
 	margin: auto;
-	margin-top: 110px;
+	margin-top: 120px;
 	width: 50%;
 	height: 60%;
 	font-family: 'Original Surfer', cursive;
 	text-align: center;
 }
+
 #flavour{
 	font-size: 90px;
 }
@@ -15,7 +16,6 @@
 	top: 160px;
 	left: 440px;
 }
-
 body{
 	background-image: url("background.jpg");
 	background-repeat: no-repeat;
@@ -69,3 +69,9 @@ button{
 @keyframes contact_ani{
 	from{top:10px;} to {top:180px;}
 }
+.notice{
+	color:red;
+	width: 200px;
+	height: 30px;
+}
+

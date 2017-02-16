@@ -1,30 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Log-In</title>
-	
+	<title>Flavour-Login</title>
 </head>
 <body>
-	<div class="container">
-		<%= form_tag recipes_path do %>
-		<div class="inner">
-			<div class="field">
-			<label>Username: </label>
-				<%= text_field_tag :username %><br>
-			</div>
-			<div class="field">
-				<label>Password: </label>
-				<%= text_field_tag :password %><br>
-			</div>
-			<div class="field">
-				<a href="#" target="_blank">forget password? </a>
-			</div>
-				<div class="actions">
-					<%= submit_tag "login" %>
-				</div>	
-			</div>
-		<% end %>
-	</div>
-	<%= yield %>
+	<div class="notice"><%= notice %></div>
+	<%= form_tag("/sessions") do %>
+	<table>
+		<tr>
+			<%= label_tag :name %>
+			<%= text_field_tag :name %>
+		</tr>
+		<tr>
+			<%= label_tag :password %>
+			<%= password_field_tag :password %>
+		</tr>
+		<tr><%= submit_tag "login" %></tr>
+	</table>
+	<% end %>
+	<%= link_to 'home', '/' %>
 </body>
 </html>
