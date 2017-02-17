@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<% stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 	<title>Flavour-Login</title>
 </head>
 <body>
 	<div class="notice"><%= notice %></div>
+	<div class="container login_container">
+		<p class="lblcontainer">login to your account</p>
 	<%= form_tag("/sessions") do %>
 	<table>
 		<tr>
-			<%= label_tag :name %>
-			<%= text_field_tag :name %>
+			<td><%= label_tag :name %></td>
+			<td><%= text_field_tag :name %></td>
 		</tr>
 		<tr>
-			<%= label_tag :password %>
-			<%= password_field_tag :password %>
+			<td><%= label_tag :password %></td>
+			<td><%= password_field_tag :password %></td>
 		</tr>
-		<tr><%= submit_tag "login" %></tr>
 	</table>
+		<div id="firstbtn"><%= submit_tag "create" %></div>
 	<% end %>
-	<%= link_to 'home', '/' %>
+	<a href="/"><input type="submit" value="home"></a>
+	</div>
 </body>
 </html>

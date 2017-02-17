@@ -1,3 +1,58 @@
 // Place all the styles related to the user controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.container{
+	width: 350px;
+	height: 270px;
+	margin: auto;
+	margin-top: 60px;
+	font-family: sans-serif;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 20px 20px;
+	background-color:#f2f2f2;
+	font-size: 16px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+table{
+	padding: 20px 30px;
+	border-spacing: 5px 10px;
+}
+input[type="submit"]{
+	background-color: #00ace6;
+	width:130px;
+	height:30px;
+	border-radius:4px;
+	color: white;
+	font-size: 16px;
+	border: 1px solid white;
+	cursor: pointer;
+	float:left;
+}
+input[type="text"], input[type="password"]{
+	background-color:#ffffe6;
+}
+.container .error_explan{
+	width: 350px;
+	font-size: 12px;
+	border: 2px black;
+	color: red;
+}
+.notice{
+	color:red;
+	width: 200px;
+	height: 30px;
+}
+
+.login_container{
+	height:210px;
+}
+#firstbtn{
+	margin-left:40px;
+}
+.lblcontainer{
+	font-size:19px;
+	text-align:center;
+	color:#a6a6a6;
+	font-family:cursive;
+}

@@ -4,7 +4,30 @@
 	<title>flavour</title>
 </head>
 <body>
-	<h1>Hi <%= @user.name %></h1>
-	<%= link_to "log out", '/logout' %>
+	<header>
+  <ul>
+    <li><a href="/">Home</a></li>
+
+    <li class="dropdown">
+      <a class="dropbtn" id="dropbtn_rec">Recipe</a>
+      <div class="dropdown-content" id="droprec">
+        <a href="/">new</a>
+        <a href="/">all</a>
+        <a href="/">find</a>
+      </div>
+    </li>
+    
+    <li class="dropdown">
+      <a class="dropbtn" id="dropbtn_cat">Category</a>
+      <div class="dropdown-content" id="dropcat">
+        <a href="/">new</a>
+        <a href="/">all</a>
+        <a href="/">find</a>
+      </div>
+    </li>
+
+    <li><a href="/logout">log out</a></li>
+  </ul>
+  </header>
 </body>
 </html>

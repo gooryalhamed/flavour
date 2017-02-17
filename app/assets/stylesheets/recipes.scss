@@ -3,38 +3,4 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import url('https://fonts.googleapis.com/css?family=Original+Surfer');
 
-.container{
-	width: 350px;
-	height: 350px;
-	margin: auto;
-	margin-top: 90px;
-	font-family: sans-serif;
-	border: 1px solid white;
-	border-radius: 10px;
-	padding: 20px 20px;
-	background-color: #ffffcc;
-	font-size: 16px;
-}
-table{
-	padding: 20px 10px;
-	border-spacing: 5px 14px;
-}
-input[type="submit"]{
-	background-color: #00ace6;
-	width:130px;
-	height:30px;
-	border-radius:4px;
-	color: white;
-	font-size: 16px;
-	border: 1px solid white;
-	cursor: pointer;
-}
 
-input[type="text"]{
-	padding: 4px;
-}
-.container .error_explan{
-	width: 350px;
-	font-size: 12px;
-	border: 2px red;
-}

@@ -39,7 +39,7 @@ button{
 
 #contact{
 	display: none;
-	width:300px;
+	width:290px;
 	height: 150px;
 	border: 1px solid #f9ecf2;
 	background-color: #ebebe0;
@@ -48,7 +48,7 @@ button{
 	text-align: center;
 	position: absolute;
 	top: 0px;
-	left: 40%;
+	left: 39%;
 	-webkit- animation: 0.5s contact_ani;
 	-moz- animation: 0.5s contact_ani;
 	animation: 0.5s contact_ani;
