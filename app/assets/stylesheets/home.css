@@ -69,9 +69,4 @@ button{
 @keyframes contact_ani{
 	from{top:10px;} to {top:180px;}
 }
-.notice{
-	color:red;
-	width: 200px;
-	height: 30px;
-}
 
